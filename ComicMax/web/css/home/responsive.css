@@ -1,0 +1,116 @@
+@media (max-width: 1280px){
+    .header{
+        justify-content: space-between;
+    }
+    .header >*{
+        margin: 0;
+    }
+    .header-logo{
+        width: 84px;
+    }
+    .header-nav__item, .header-usernav__item{
+        padding: 1.5rem 0.5rem;
+    }
+    .searchbar input[type="text"]{
+        width: 300px
+    }
+    .cart span{
+        display: none;
+    }
+}
+@media (max-width:960px){
+    .header >*{
+        margin: 0;
+    }
+    .subnav-switch:nth-child(1),.subnav-switch:nth-child(2){
+        display: none;
+    }
+}
+@media (max-width:700px){
+    .slideshow{
+        height: 684px;
+    }
+    .searchbar input[type="text"]{
+        width: 100%;
+        padding-right: 36px;
+    }
+    .subnav__category .button{
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+    }
+    .subnav__category:last-child{
+        padding: 4px;
+    }
+    .searchbar input[type="submit"]{
+        font-size: 6px;
+    }
+}
+@media (max-width:500px){
+    .header-nav__item{
+        font-size: 24px;
+    }
+    .header-nav__item h4{
+        display: none;
+    }
+    .subnav-switch .fa-caret-down{
+        display: none;
+    }
+    .header-nav__item:last-child{
+        display: none;
+    }
+    .subnav-switch:hover .subnav{
+        display: none;
+    }
+    .mb-menu:hover .mb-subnav{
+        display: flex;
+    }
+    .slide__content{
+        margin: 0 10%;
+    }
+    .footer-nav-part .logo{
+        display: none;
+    }
+    .searchbar input[type="submit"]{
+        font-size: inherit;
+    }
+    .searchbar input[type="text"]{
+        padding-right: 76px;
+    }
+}
+
+/**/
+@media (max-width:1300px){
+    .product-container{
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media (max-width:1100px){
+    .product-container{
+        grid-template-columns:auto auto auto auto;
+    }
+}
+@media (max-width:900px){
+    .product-container{
+        grid-template-columns:auto auto auto;
+    }
+}
+@media (max-width:700px){
+    .product-container{
+        grid-template-columns:auto auto;
+    }
+    .product-container .product img{
+        height: 300px;
+    }
+}
+@media (max-width:480px){
+    .product-container{
+        /*grid-template-columns:auto;*/
+        gap: 0.5%;
+    }
+    .product-container .product img{
+        height: 360px;
+    }
+    #comment{
+        margin-top: 80px
+    }
+}
